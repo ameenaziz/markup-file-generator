@@ -15,6 +15,8 @@ Once you've installed, you can simply run:
 
 ```bash
 $ nodemon 
+Or 
+$ npm start 
 ```
 View on http://localhost:3010
 
