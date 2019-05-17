@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Markup file generator</title>
+</head>
+<body>
+		<h1>{{article_1.heading}}</h1>
+		<a href="{{article_1.link}}">
+			<h2>{{article_1.subheading}}</h2>
+		</a>
+		<div class="image">
+			<img src="{{article_1.image}}" alt="computer motherboard">
+		</div>
+		<div>
+				<span>Posted by: {{article_1.meta.postedBy}}</span>
+				<br>
+				<span>Category: {{article_1.meta.category}}</span>
+		</div>
+</body>
+</html>

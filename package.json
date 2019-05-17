@@ -1,0 +1,17 @@
+{
+  "name": "markup-file-generator",
+  "version": "1.0.0",
+  "description": "Generate markup files using handlebar templating and json data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*",
+    "handlebars": "^4.1.2"
+  },
+  "author": "Ameen Aziz",
+  "license": "ISC"
+}
