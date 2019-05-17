@@ -7,10 +7,10 @@ app.set('port', (process.env.PORT || 3010));
 const source = fs.readFileSync('template.html', 'utf8');
 const template = Handlebars.compile(source);
    
-const email_dataRaw = fs.readFileSync('data.json', 'utf8');
-const email_dataParsed = JSON.parse(email_dataRaw); 
+const dataRaw = fs.readFileSync('data.json', 'utf8');
+const dataParsed = JSON.parse(dataRaw); 
 
-const result = template(email_dataParsed);  
+const result = template(dataParsed);  
 
 app.get('/', function(req, res) {
     res.send(result);
