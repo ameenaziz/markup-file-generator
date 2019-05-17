@@ -25,3 +25,9 @@ This starts a local webserver that will automatically reload your changes.
 index.html is saved in  /dist folder everytime a change is made to template.html
 you may need to restart the local server if nodemon doesn't detect the change.
 
+## Dependencies
+
+Node
+Express
+Handlebars 
+
