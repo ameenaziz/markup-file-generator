@@ -29,7 +29,7 @@ you may need to restart the local server if nodemon doesn't detect the change.
 
 ## Dependencies
 
-Node
-Express
-Handlebars 
+Node  
+Express  
+Handlebars  
 
