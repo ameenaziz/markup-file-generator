@@ -6,7 +6,7 @@ Generate a markup file using handlebar templating and json data
 
 ```bash
 $ npm install
-$ npm install -g nodemon 
+$ npm install -g nodemon
 ```
 
 ## Development
@@ -14,22 +14,22 @@ $ npm install -g nodemon
 Once you've installed, you can simply run:
 
 ```bash
-$ nodemon 
-Or 
-$ npm start 
+$ nodemon
+Or
+$ npm start
 ```
-View on http://localhost:3010
+
+View on http://localhost:3020
 
 This starts a local webserver that will automatically reload your changes.
 
 ## Building
 
-index.html is saved in  /dist folder everytime a change is made to template.html
+index.html is saved in /dist folder everytime a change is made to template.html
 you may need to restart the local server if nodemon doesn't detect the change.
 
 ## Dependencies
 
 Node  
 Express  
-Handlebars  
-
+Handlebars
