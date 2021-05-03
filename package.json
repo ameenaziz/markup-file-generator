@@ -10,7 +10,8 @@
   "dependencies": {
     "express": "*",
     "express-handlebars": "*",
-    "handlebars": ">=4.5.3"
+    "handlebars": ">=4.5.3", 
+    "minimist": ">=0.2.1"
   },
   "author": "Ameen Aziz",
   "license": "ISC"
