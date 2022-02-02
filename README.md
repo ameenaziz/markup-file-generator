@@ -1,6 +1,7 @@
 # Markup File Generator
 
-Generate a markup file using handlebar templating and json data
+Generate a markup file using json data 
+templating done with handlebar
 
 ## Installation
 
