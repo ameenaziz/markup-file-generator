@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "express": "*",
-    "express-handlebars": "*",
-    "handlebars": ">=4.7.7", 
-    "minimist": ">=0.2.1"
+    "express-handlebars": "^6.0.2",
+    "handlebars": "^4.7.7",
+    "minimist": "1.2.5"
   },
   "author": "Ameen Aziz",
   "license": "ISC"
