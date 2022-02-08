@@ -10,7 +10,7 @@ const template = Handlebars.compile(source);
 const dataRaw = fs.readFileSync('data.json', 'utf8');
 const dataParsed = JSON.parse(dataRaw); 
 const result = template(dataParsed);  
-
+const dir = './dist';
 
 app.get('/', function(req, res) {
     res.send(result);
@@ -19,6 +19,11 @@ app.get('/', function(req, res) {
 app.use('/html', function(req, res) {
   res.render('index.html', result);
 })
+
+
+if (!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+}
 
 const stream = fs.createWriteStream("./dist/index.html");
 stream.once('open', () => {
