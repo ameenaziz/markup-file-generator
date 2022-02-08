@@ -16,11 +16,6 @@ app.get('/', function(req, res) {
     res.send(result);
 });
 
-app.use('/html', function(req, res) {
-  res.render('index.html', result);
-})
-
-
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
 }
@@ -32,7 +27,7 @@ stream.once('open', () => {
 });
 
 
-app.listen(app.get('port'), function(){
+app.listen(app.get('port'), ()=> {
     console.log('Server started on port http://localhost:' + app.get('port'));
 } )
 
